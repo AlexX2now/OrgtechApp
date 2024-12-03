@@ -1,0 +1,18 @@
+﻿<Window x:Class="UP_2.MasterP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UP_2"
+        mc:Ignorable="d"
+        Title="Страница мастера" Height="450" Width="318">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Мастер" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="exit" Content="Выйти из аккаунта" HorizontalAlignment="Center" Margin="0,375,0,0" VerticalAlignment="Top" FontSize="20" Background="White" Click="exit_Click"/>
+        <Button x:Name="checkz" Content="Просмотр заявок" HorizontalAlignment="Center" Margin="0,68,0,0" VerticalAlignment="Top" FontSize="20" Background="White" Width="231" Click="checkz_Click"/>
+        <Button x:Name="vipbtn" Content="Выполнить заявку" HorizontalAlignment="Center" Margin="0,103,0,0" VerticalAlignment="Top" FontSize="20" Background="White" Width="231" Click="vipbtn_Click"/>
+        <Button x:Name="addcomm" Content="Написать комментарий" HorizontalAlignment="Center" Margin="0,139,0,0" VerticalAlignment="Top" FontSize="20" Background="White" Width="231" Click="addcomm_Click"/>
+        <Button x:Name="zakdet" Content="Заказать деталь" HorizontalAlignment="Center" Margin="0,175,0,0" VerticalAlignment="Top" FontSize="20" Background="White" Width="230" Click="zakdet_Click"/>
+
+    </Grid>
+</Window>

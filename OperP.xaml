@@ -1,0 +1,17 @@
+﻿<Window x:Class="UP_2.OperP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UP_2"
+        mc:Ignorable="d"
+        Title="Страница оператора" Height="450" Width="318">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Оператор" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="exit" Content="Выйти из аккаунта" HorizontalAlignment="Center" Margin="0,375,0,0" VerticalAlignment="Top" FontSize="20" Background="White" Click="exit_Click"/>
+        <Button x:Name="tocz" Content="Просмотр заявок" HorizontalAlignment="Center" Margin="0,68,0,0" VerticalAlignment="Top" FontSize="20" Background="White" Width="231" Click="Button_Click"/>
+        <Button x:Name="kolvo" Content="Количество заявок" HorizontalAlignment="Center" Margin="0,104,0,0" VerticalAlignment="Top" FontSize="20" Background="White" Width="231" Click="kolvo_Click"/>
+        <Button x:Name="addkl" Content="Добавить клиента" HorizontalAlignment="Center" Margin="0,140,0,0" VerticalAlignment="Top" FontSize="20" Background="White" Width="231" Click="addkl_Click"/>
+
+    </Grid>
+</Window>
